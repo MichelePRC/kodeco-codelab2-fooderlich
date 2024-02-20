@@ -17,7 +17,7 @@ class CircleImage extends StatelessWidget {
       radius: imageRadius,
       child: CircleImage(
         imageRadius: imageRadius - 5,
-        imageProvider: imageProvider, //prova
+        imageProvider: imageProvider,
       ),
     );
   }

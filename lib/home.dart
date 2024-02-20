@@ -18,6 +18,7 @@ class _HomeState extends State<Home> {
     //TO-DO Replace with Card1
     Card1(),
     Card2(),
+    Container(),
     Container(
       color: Colors.blue,
     ),
