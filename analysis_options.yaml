@@ -26,17 +26,22 @@ analyzer:
 
 linter:
   rules:
-    - always_declare_return_types
-    - avoid_annotating_with_dynamic
-    - avoid_bool_literals_in_conditional_expressions
-    - cancel_subscriptions
-    - close_sinks
-    - omit_local_variable_types
-    - only_throw_errors
-    - prefer_final_in_for_each
-    - prefer_final_locals
-    - prefer_relative_imports
-    - prefer_single_quotes
-    - unnecessary_await_in_return
-    - unnecessary_statements
+    # - always_declare_return_types
+    # - avoid_annotating_with_dynamic
+    # - avoid_bool_literals_in_conditional_expressions
+    # - cancel_subscriptions
+    # - close_sinks
+    # - omit_local_variable_types
+    # - only_throw_errors
+    # - prefer_final_in_for_each
+    # - prefer_final_locals
+    # - prefer_relative_imports
+    # - prefer_single_quotes
+    # - unnecessary_await_in_return
+    # - unnecessary_statements
+
+    prefer_const_constructors: false
+    use_key_in_widget_constructors: false
+    prefer_const_constructors_in_immutables: false
+    prefer_const_literals_to_create_immutables: false
 

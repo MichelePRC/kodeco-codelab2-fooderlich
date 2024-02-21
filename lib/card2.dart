@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:fooderlich/author_card.dart';
+import 'author_card.dart';
 
 class Card2 extends StatelessWidget {
   const Card2({super.key});
@@ -19,7 +21,11 @@ class Card2 extends StatelessWidget {
         ),
         child: Column(
           children: const [
-            //TODO: aggiungere 2 widget text
+            AuthorCard(
+              authorName: 'Mike Katz',
+              title: 'Smoothie Connoisseur',
+              imageProvider: AssetImage('assets/author_katz.jpeg'),
+            ),
           ],
         ),
       ),
